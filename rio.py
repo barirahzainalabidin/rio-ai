@@ -8,8 +8,8 @@ import openai
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
-st.title("Alyncyn AI")
-st.subheader("Ask Anything !")
+st.title("RIO AI")
+st.subheader("Unlock the Knowledge in Your File Like PDF – Effortlessly. Rio AI transforms complex documents into easy-to-understand summaries, making study sessions more productive and less stressful. You can ask questions in multiple languages.")
 
 # Hardcode the model selection
 model = "gpt-3.5-turbo"  # Change to "gpt-4" if needed
